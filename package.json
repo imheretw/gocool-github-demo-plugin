@@ -1,9 +1,29 @@
 {
   "name": "gocool-github-demo-plugin",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "version": "0.1.0",
   "description": "A demo plugin for gocool framewook",
   "repository": "git@github.com:imheretw/gocool-github-demo-plugin.git",
   "author": "Imheretw",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "npm run build",
+    "clean": "rimraf dist",
+    "build": "npm run clean && mkdir -p dist && babel lib -s -D -d dist"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-react": "^6.10.3",
+    "rimraf": "^2.6.1"
+  }
 }
