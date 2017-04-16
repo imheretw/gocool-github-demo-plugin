@@ -6,10 +6,6 @@
   "repository": "git@github.com:imheretw/gocool-github-demo-plugin.git",
   "author": "Imheretw",
   "license": "MIT",
-  "files": [
-    "dist",
-    "lib"
-  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "rimraf dist && babel lib -s -D -d dist"
