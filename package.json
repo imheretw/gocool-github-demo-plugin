@@ -1,7 +1,7 @@
 {
   "name": "gocool-github-demo-plugin",
   "main": "dist/index.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A demo plugin for gocool framewook",
   "repository": "git@github.com:imheretw/gocool-github-demo-plugin.git",
   "author": "Imheretw",
