@@ -12,8 +12,7 @@
   ],
   "scripts": {
     "prepublish": "npm run build",
-    "clean": "rimraf dist",
-    "build": "npm run clean && mkdir -p dist && babel lib -s -D -d dist"
+    "build": "rimraf dist && babel lib -s -D -d dist"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
