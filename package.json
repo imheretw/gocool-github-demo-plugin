@@ -7,7 +7,8 @@
   "author": "Imheretw",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "lib"
   ],
   "scripts": {
     "prepublish": "npm run build",
