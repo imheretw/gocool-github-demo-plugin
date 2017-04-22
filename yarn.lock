@@ -1069,6 +1069,12 @@ debug@2.6.3, debug@^2.1.1, debug@^2.2.0:
   dependencies:
     ms "0.7.2"
 
+debug@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.4.tgz#7586a9b3c39741c0282ae33445c4e8ac74734fe0"
+  dependencies:
+    ms "0.7.3"
+
 decamelize@^1.0.0, decamelize@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
@@ -1436,6 +1442,10 @@ event-emitter@~0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
+eventemitter2@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-4.1.0.tgz#b1fb8a1144e7dfcf80cecce9877ff6d68e7d8506"
+
 exit-hook@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
@@ -1755,13 +1765,15 @@ globby@^5.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-gocool@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/gocool/-/gocool-0.1.2.tgz#2354780afd96f3f8d932b0be6ebfeba4b1e50cfa"
+gocool@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/gocool/-/gocool-0.1.6.tgz#9ef782db4c79cf5aff223ea1c97a4cb4ebf933d3"
   dependencies:
     body-parser "^1.17.1"
     compression "^1.6.2"
     cookie-parser "^1.4.3"
+    debug "^2.6.4"
+    eventemitter2 "^4.1.0"
     express "^4.15.2"
     helmet "^3.5.0"
     passport "^0.3.2"
@@ -2468,6 +2480,10 @@ ms@0.7.1:
 ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
+
+ms@0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.3.tgz#708155a5e44e33f5fd0fc53e81d0d40a91be1fff"
 
 mute-stream@0.0.5:
   version "0.0.5"
