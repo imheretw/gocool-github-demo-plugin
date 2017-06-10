@@ -37,6 +37,6 @@
     "standard-changelog": "^1.0.1"
   },
   "dependencies": {
-    "gocool": "^0.1.6"
+    "gocool": "^0.2.0"
   }
 }
